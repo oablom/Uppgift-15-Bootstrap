@@ -1,0 +1,15 @@
+* {
+  box-sizing: unset;
+}
+
+.spacediv {
+  height: 50px;
+}
+
+.list-group-item-action:hover {
+  background: #7a7777;
+}
+
+h1 {
+  pointer-events: none;
+}/*# sourceMappingURL=index.css.map */

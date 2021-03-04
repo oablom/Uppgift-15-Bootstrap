@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Styles/index.css">
+    <title>Document</title>
+</head>
+<body class="bg-dark">
+    
+    <header>
+        <nav class="navbar-expand-sm bg-dark 
+                    text-white row fixed-top">
+                <div class="col-sm-4 d-flex align-items-center">
+                    <h1 class="col-6 mx-auto text-center d-none d-sm-block">Homepage</h1>
+                    <h2 class=" text-center mx-auto d-sm-none text-white"
+                    data-toggle="collapse" data-target="#collapseNavbar">Menu</h2>
+                </div>
+            
+                <div class="col-sm-8 p-3 collapse navbar-collapse" id="collapseNavbar">
+                    <ul class="navbar-nav navbar-collapse justify-content-around 
+                    text-center">
+                        <li class="nav-item">
+                            <a class="nav-link text-white list-group-item-action" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white list-group-item-action" href="#">About</a>
+                        </li><li class="nav-item">
+                            <a class="nav-link text-white list-group-item-action" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+    </header>
+
+    <img src="Images/bg.png" class="position-absolute col-12 col-lg-overflow-hidden d-none d-sm-block" alt="Background image: city">
+
+    <main class="p-5"> 
+        <div class="spacediv"></div>
+
+        <div class="row justify-content-around">
+
+            <div class="card col-xs-1 col-sm-3 bg-dark text-white">
+                <div class="card-header">
+                    <img src="Images/bg.png" class="img-fluid" alt="City">
+                </div>
+                <div class="card-main pb-3">
+                    <p class="card-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus ab sunt voluptates cumque quae dicta, provident incidunt! Quisquam error ratione, debitis optio voluptates quaerat omnis cum suscipit cumque ut mollitia molestias rem totam quae minima aperiam. Nam, quo amet. Laboriosam qui veritatis magnam quasi illo harum odio! Hic, obcaecati quas?
+                    </p>
+                    <div class="text-center"> 
+                       <button class="btn btn-warning col-3">
+                            Warning
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card col-sm-3 bg-dark text-white">
+                <div class="card-header">
+                    <img src="Images/man.png" class="img-fluid" alt="Man">
+                </div>
+                <div class="card-main">
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus ab sunt voluptates cumque quae dicta, provident incidunt! Quisquam error ratione, debitis optio voluptates quaerat omnis cum suscipit cumque ut mollitia molestias rem totam quae minima aperiam. Nam, quo amet. Laboriosam qui veritatis magnam quasi illo harum odio! Hic, obcaecati quas?</p>
+                    <div class="text-center">
+                        <button class="btn btn-danger col-3">
+                            Danger
+                        </button>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
